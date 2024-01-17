@@ -48,6 +48,12 @@
             width: 100%;
         }
     </style>
+    <script>
+        function goToCheckout() {
+            // Navigate to the checkout page
+            window.location.href = "checkout.html";
+        }
+    </script>
 </head>
 <body>
 
@@ -66,7 +72,7 @@
             <h2>Product Name 1</h2>
             <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>Price: $19.99</p>
-            <button>Add to Cart</button>
+            <button onclick="goToCheckout()">Proceed to Checkout</button>
         </div>
 
         <div class="product">
