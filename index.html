@@ -1,12 +1,53 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -16,16 +57,27 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="checkout.html">Checkout</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <section>
-        <h2>Products</h2>
-        <ul>
-            <li><a href="product1.html">Product 1</a></li>
-            <li><a href="product2.html">Product 2</a></li>
-            <!-- Add more products as needed -->
-        </ul>
+        <div class="product">
+            <h2>Product Name 1</h2>
+            <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <h2>Product Name 2</h2>
+            <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more product entries as needed -->
+
     </section>
 
     <footer>
